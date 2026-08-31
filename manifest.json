@@ -1,5 +1,18 @@
 [
     {
+        "name": "1.2.0",
+        "changes": [
+            "Added ability to adjust maximum idle and transmission power of WiFi."
+        ],
+        "migration": "bin/1.2.0/migration.js",
+        "assets": {
+            "dashboard": "bin/1.2.0/dashboard.zip",
+            "firmware": {
+                "esp32s3": "bin/1.2.0/esp32s3-firmware.bin"
+            }
+        }
+    },
+    {
         "name": "1.1.0",
         "changes": [
             "Time will now update while ACP routines are running, preventing the unattractive jump some routines had at the end.",
@@ -10,19 +23,6 @@
             "dashboard": "bin/1.1.0/dashboard.zip",
             "firmware": {
                 "esp32s3": "bin/1.1.0/esp32s3-firmware.bin"
-            }
-        }
-    },
-    {
-        "name": "1.2.0",
-        "changes": [
-            "Added ability to adjust maximum idle and transmission power of WiFi."
-        ],
-        "migration": "bin/1.2.0/migration.js",
-        "assets": {
-            "dashboard": "bin/1.2.0/dashboard.zip",
-            "firmware": {
-                "esp32s3": "bin/1.2.0/esp32s3-firmware.bin"
             }
         }
     }
