@@ -7,9 +7,9 @@
             "Various preperations for the auto flasher."
         ],
         "assets": {
-            "dashboard": "bin/1-1-0/dashboard.zip",
+            "dashboard": "bin/1.1.0/dashboard.zip",
             "firmware": {
-                "esp32s3": "bin/1-1-0/esp32s3-firmware.bin"
+                "esp32s3": "bin/1.1.0/esp32s3-firmware.bin"
             }
         }
     }
